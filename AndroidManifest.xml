@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fingerprint.nroll"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nroll_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.fingerprint.nroll.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+                
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>      
+        
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.fingerprint.nroll.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".StartingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.fingerprint.nroll.STARTINGPOINT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Papertoss"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.fingerprint.nroll.PAPERTOSS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+        <activity
+            android:name=".Ball"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.fingerprint.nroll.BALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MyAnimation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.fingerprint.nroll.MYANIMATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Toss"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.fingerprint.nroll.TOSS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name=".GfxSurface"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.fingerprint.nroll.GFXSURFACE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+
+                        
+    </application>
+
+</manifest>
